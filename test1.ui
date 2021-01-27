@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>650</width>
-    <height>669</height>
+    <width>1054</width>
+    <height>741</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -222,6 +222,54 @@
     <property name="text">
      <string>print text</string>
     </property>
+   </widget>
+  </widget>
+  <widget class="QTabWidget" name="tabWidgetA">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>20</y>
+     <width>361</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidgetA">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>161</y>
+       <width>321</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>A</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>B</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>C</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
    </widget>
   </widget>
  </widget>
